@@ -23,7 +23,7 @@ const Skills = () => {
         <h3 className='text-center text-danger'>Soft Skill</h3>
         <ul className='list-group'>
         {Object.entries(SoftSkill).map(([skill, skillData], index) => (
-                <li className={`list-group-item list-group-item-${skillData.color} mt-4 w-100 btn-lg`}>{skill}</li>
+                <li key={index} className={`list-group-item list-group-item-${skillData.color} mt-4 w-100 btn-lg`}>{skill}</li>
         ))}
         </ul>
         </div>
