@@ -4,8 +4,8 @@ import hieee from '../Assets/hieee.png'
 const Home = () => {
   return (
     <>
-        <section className='container' id='home'>
-            <h1 className="sign">Results Speak Louder than Words</h1>
+        <section className='container home-container' id='home'>
+                <div className='sign-container'><h1 className="sign">Results Speak Louder than Words</h1></div>
             <div className='row'>
                 <img className='hieee col' src={hieee} alt='...'/>
                 <div className='quotation col'>

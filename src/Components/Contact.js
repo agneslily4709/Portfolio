@@ -24,7 +24,7 @@ const Contact = () => {
         Swal.fire({
           title: 'Ooops, something went wrong',
           text: error.text,
-          imageUrl:"https://i.ibb.co/ngP1MCxT/error.png",
+          imageUrl:"https://i.ibb.co/XJ1ph7Q/sleepglasses.png",
           imageHeight:200,
           imageWidth:200,
           imageAlt:"Lost it"

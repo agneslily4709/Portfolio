@@ -7,13 +7,14 @@
 }
 :root {
     --navy-blue-color: #000080;
-    --alice-blue-color: ivory;
+    --alice-blue-color:aliceblue;
     --poppy-red-color: #df2935;
     --emerald-green-color: #9effc6;
 }
 body {
     min-width: 100vw;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 .App {
     background-color: var(--alice-blue-color);
@@ -36,22 +37,31 @@ body {
     border-radius: 5px;
     color: var(--navy-blue-color);
 }
-.home {
+.sign-container{
+        padding: 15px;
 }
-.sign {
-    margin: 80px 0px 30px 0px;
-    letter-spacing: 4;
-    font-family: "Clip";
-    text-transform: uppercase;
-    color: var(--navy-blue-color);
-    font-size: 4em;
-    font-weight: bolder;
-    animation: example 2s infinite;
-}
+@keyframes example {
+        from {
+            color: var(--poppy-red-color);
+        }
+        to {
+            color:var(--navy-blue-color);
+        }
+    }
+    .sign {
+        margin: 80px 0px 20px 0px;
+        letter-spacing: 4;
+        font-family: "Clip";
+        text-transform: uppercase;
+        color: var(--navy-blue-color);
+        font-size: 4em;
+        font-weight: bolder;
+        animation: example 2s infinite;
+    }
 .quotation {
     color: var(--navy-blue-color);
     font-size: 25px;
-    line-height: 2;
+    line-height: 2.2;
 }
 @keyframes example {
     from {
@@ -62,64 +72,29 @@ body {
     }
 }
 .hieee {
-    height: 525px;
+    height: 500px;
 }
 .section-header {
     text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
 }
 h1 {
     color: var(--poppy-red-color);
     font-size: 50px;
 }
-.skill {
-    text-align: center;
-}
-
-.skill-tabs {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-.skill-tab {
-    background-color: var(--alice-blue-color);
-    color: var(--navy-blue-color);
-    padding: 10px 20px;
-    margin-top: 20px;
-    border: 2px solid var(--navy-blue-color);
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.skill-tab.active {
-    background-color: var(--navy-blue-color);
-    color: var(--alice-blue-color);
-}
-
-.skill-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 100vh;
-}
-
-.skill-item {
-    background-color: var(--alice-blue-color);
-    color: var(--navy-blue-color);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 1rem;
-    text-align: center;
-}
-
 .blg {
     margin: 20px;
     height: 290px;
     padding: 20px;
     box-shadow: var(--poppy-red-color) 0px 0px 0px 3px;
     text-align: center;
-    background-color: var(--alice-blue-color);
+    background-color: rgb(252, 240, 242);
+    border: 3px solid var(--poppy-red-color);
+    border-radius: 10px;
+background: #fcf0f2;
+box-shadow:  20px 20px 60px #d6ccce,
+             -20px -20px 60px #ffffff;
 }
 img {
     height: 150px;
@@ -135,15 +110,129 @@ img {
     width: 100%;
 }
 .formContent {
-    border: 20px solid var(--navy-blue-color);
-    margin: 20px;
+    border-color: red green yellow blue;
+    border-style: solid;
+    border-width: 15px 10px 10px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .proCard {
     border: 3px solid black;
     margin: 20px;
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+    border-radius: 5px;
+background: linear-gradient(145deg, #e6e6d5, #fffffe);
+box-shadow:  20px 20px 60px #d9d9c9,
+             -20px -20px 60px #ffffff;
 }
 .project {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
 }
+.skill-tabs{
+        display: grid;
+        grid-template-columns: 35% 65%;
+}
+.skill-category{
+        background-color:azure;
+        border-radius: 50px;
+background: linear-gradient(145deg, #d8dfe6, #ffffff);
+box-shadow:  20px 20px 60px #ccd3d9,
+             -20px -20px 60px #ffffff;
+        justify-content:center;
+        align-items: center;
+        padding: 30px;
+        margin-top: 20px;
+        border: 3px solid var(--poppy-red-color);
+        border-radius: 10px;
+}
+.tech-skill{
+        margin-left: 20px;
+}
+.soft-skill{
+        margin-right: 20px;
+}
+.media-icons{
+        margin: 0 20px 0 20px;
+}
+.neu{
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: var(--poppy-red-color) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+@media screen and (max-width:412px) {
+        body{
+                overflow-x: hidden;
+        }
+        .section-header{
+                font-size: 30px;
+        }
+        .home,.contact,.project{
+          display: grid;
+          grid-template-columns: auto;
+        }
+        .rowSkills{
+          margin-top: 15px;
+        }
+        .formContent{
+          border: 15px solid var(--poppy-red-color);
+          margin: 5px;
+        }
+        .hieee{
+          height: 300px;
+        }
+        .sign{
+          font-size: 30px;
+          text-align: center;
+        }
+        .quotation{
+          font-size: 17px;
+          font-style: italic;
+          font-weight: 200;
+          line-height: 30px;
+          padding: 30px;
+        } 
+        .videobox{
+          height: fit-content;
+        }
+        .topBottom{
+          width:auto;
+        }
+        .proCard{
+          border: 3px solid black;
+          margin: 20px;
+        }
+        .blg{
+          margin: 20px;
+          border: 2px solid gray;
+          text-align: center;
+        }
+        .cardTitle{
+          font-size: 15px;
+        }
+        .blogCards{
+          color: navy;
+          display: grid;
+          grid-template-columns: auto;
+        }
+        .media-icons{
+                margin: 0 10px 0 10px;
+        }
+        .skill-tabs{
+                display: block;
+        }
+        .tech-skill{
+                margin: 20px;
+        }
+        .soft-skill{
+                margin: 20px;
+        }
+        .quotation {
+                font-size: 20px;
+                line-height: 2;
+            }
+      }
+      
