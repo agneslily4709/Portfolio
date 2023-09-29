@@ -1,6 +1,7 @@
 import './App.css';
 import About from './Components/About';
 import Blogs from './Components/Blogs';
+import CodingProficiency from './Components/CodingProficiency';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
@@ -16,8 +17,9 @@ function App() {
                         <Home/>
                         <About/>
                         <Skills/>
-                        <Blogs/>
+                        <CodingProficiency/>
                         <Projects/>
+                        <Blogs/>
                         <Contact/>
                 </div>
                 <Footer/>

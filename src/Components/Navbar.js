@@ -16,8 +16,9 @@ const Navbar = () => {
                         <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href='#home'>Home</a></li>
                         <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href='#about'>About</a></li>
                         <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href='#skills'>Skills</a></li>
-                        <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href='#blogs'>Blogs</a></li>
+                        <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href='#coding'>Coding Pro</a></li>
                         <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href='#projects'>Projects</a></li>
+                        <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href='#blogs'>Blogs</a></li>
                         <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href='#contact'>Contact</a></li>
                         <li className='nav-item'><a rel="noreferrer" className='nav-link navItems m-1' href={pdfFile} download="AgnesLilyResume" target='_blank' style={{ color: "var(--poppy-red-color)" }}>Download   <FaFileDownload /></a></li>
                         </ul>
