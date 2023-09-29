@@ -4,7 +4,7 @@ const Projects = () => {
   let project = [
     {
     projectName : "Escuela",
-    github : "https://github.com/AgnesLily2772/ESCUELA",
+    github : "https://github.com/AgnesLily2772/Escuela",
     deployedURL:"https://escuela-app.netlify.app/",
     category:"MERN",
     description: "Escuela is a web application to record and monitor student both academic as well as extra curricular activities. This is a MERN stack website with the MongoDb as database, Express as Web Framework, React for Frontend and Node for Web Server."
@@ -24,14 +24,14 @@ const Projects = () => {
       description: "Now I have recently built a MERN stack project which comprises of Front-End, Back-end and Database components. This is website where we can find a lot of books and reviews."
     },
     {      projectName : "Chat Sphere",
-    github : "https://github.com/AgnesLily2772/Capstone-ChatSphere",
+    github : "https://github.com/AgnesLily2772/ChatSphere",
     deployedURL:"https://chat-sphere-app.netlify.app/",
     category:"MERN",
     description: "A dynamic MERN stack project featuring real-time chat functionality powered by Socket.io, enabling seamless communication in an immersive online environment."
     },
     {
       projectName : "Grocery Mapper",
-      github : "https://github.com/AgnesLily2772/GroceryApp",
+      github : "https://github.com/AgnesLily2772/GroceryMapper",
       deployedURL:"https://grocery-mapper.netlify.app/",
       category:"MERN",
       description: " Developed this project for a Hackathon called HackSprint conducted by Guvi. I was asked to develop a Delivery app for Groceries. On this website, all items are listed on the website, along with prices. "
@@ -45,7 +45,7 @@ const Projects = () => {
     },
     {
       projectName : "My Shop Cart",
-      github : "https://github.com/AgnesLily2772/July-3-Task",
+      github : "https://github.com/AgnesLily2772/MyShopCart",
       deployedURL:"https://my-shop-cart.netlify.app",
       category:"Frontend",
       description: "The Shop Cart website is made using React JS with enriched UI that allows the users to add items to cart, Empty the cart and give ratings to a particular product."
