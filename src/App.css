@@ -16,6 +16,14 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
+@keyframes movement {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: 560px 0px;
+        }
+      }
 .App {
     background-color: var(--alice-blue-color);
 }
@@ -159,17 +167,25 @@ img {
     display: grid;
     height: 300px;
     width: 400px;
-    grid-template-rows: 50px auto 50px;
+    grid-template-rows: 50px 175px 50px;
     border-radius: 5px;
-background: linear-gradient(145deg, #e6e6d5, #fffffe);
-box-shadow:  20px 20px 60px #d9d9c9,
-             -20px -20px 60px #ffffff;
+    background-color: lightyellow;
 }
 
 .project {
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 30px;
+}
+.modal-content{
+        box-shadow: 0px 0px 20px grey;
+        border: 10px solid navy;
+        background-color: lightyellow;
+}
+.credential{
+        display: flex;
+        justify-content:space-between;
+        margin: 20px;
 }
 .category-options{
         display: flex;

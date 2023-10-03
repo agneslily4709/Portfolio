@@ -7,11 +7,11 @@ const Skills = () => {
                 "HTML": { proficiency: 90, color: "primary", icon: <FaHtml5 className='col-3'  size={32}/> },
                 "CSS": { proficiency: 85, color: "secondary", icon: <FaCss3  className='col-3'  size={32}/> },
                 "JavaScript": { proficiency: 95, color: "info", icon: <SiJavascript  className='col-3'  size={32}/> },
-                "ReactJS": { proficiency: 80, color: "danger", icon: <FaReact  className='col-3' size={32}/> },
-                "MongoDB": { proficiency: 75, color: "dark", icon: <SiMongodb   className='col-3' size={32}/> },
+                "ReactJS": { proficiency: 100, color: "danger", icon: <FaReact  className='col-3' size={32}/> },
+                "MongoDB": { proficiency: 80,color: "dark", icon: <SiMongodb   className='col-3' size={32}/> },
                 "NodeJS": { proficiency: 85, color: "warning", icon: <FaNodeJs    className='col-3'size={32}/> },
                 "ExpressJS": { proficiency: 80, color: "success", icon: <SiExpress className='col-3'  size={32}/> },
-                "SQL": { proficiency: 90, color: "primary", icon: <SiMysql className='col-3' size={32}/> },
+                "SQL": { proficiency: 75, color: "primary", icon: <SiMysql className='col-3' size={32}/> },
               };
         const SoftSkill = {  "Communication💬": { color: "primary" }, "Networking🌐": { color: "warning" }, "TeamWork🤝": { color: "secondary" },  "Collaboration👥":{color:"success"},"Leadership🚀": { color: "info" },  "Adaptability🦋": { color: "danger" },  "Humanity🌟": { color: "dark" },  "Spirituality🙏": { color: "warning" }}
 
@@ -22,9 +22,9 @@ const Skills = () => {
         <div className='skill-category soft-skill'>
         <h3 className='text-center text-danger'>Soft Skill</h3>
         <ul className='list-group'>
-        {Object.entries(SoftSkill).map(([skill, skillData], index) => (
-                <li key={index} className={`list-group-item list-group-item-${skillData.color} mt-4 w-100 btn-lg`}>{skill}</li>
-        ))}
+        {Object.entries(SoftSkill).map(([skill, skillData], index) => 
+                        <li key={index} className={`list-group-item list-group-item-${skillData.color} mt-4 w-100 btn-lg`}>{skill}</li>
+        )}
         </ul>
         </div>
         <div className='skill-category tech-skill'>
