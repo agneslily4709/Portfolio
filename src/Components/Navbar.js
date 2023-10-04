@@ -1,15 +1,15 @@
 import React from 'react'
 import {FaFileDownload} from 'react-icons/fa'
 import pdfFile from '../Assets/AgnesLilyResume.pdf'
-
+import {BsFillArrowDownCircleFill} from "react-icons/bs"
 const Navbar = () => {
   return (
                 <div className='navigation topBottom' id='home'>
                 <nav className='navbar fixed-top navbar-expand-lg py-3 navbar-light' style={{ backgroundColor: "var(--navy-blue-color)" }}>
                 <div className='container'>
                 <a className="navbar-brand" style={{ color: "var(--alice-blue-color)" }} href='/'>AGNES LILY</a>
-                <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="text-light">↓↓↓</span>
+                <button className="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <BsFillArrowDownCircleFill size={30}/>
                 </button>
                 <div className='collapse navbar-collapse' id="navbarSupportedContent">
                         <ul className='navbar-nav ms-auto mb-2 mb-lg-0 text-light'>
