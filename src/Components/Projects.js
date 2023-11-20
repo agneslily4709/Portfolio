@@ -3,6 +3,16 @@ import {FaKey} from "react-icons/fa"
 import {BiSolidCopy} from "react-icons/bi"
 const Projects = () => {
   let project = [
+        {
+                projectName : "Recipe Book",
+                github : "https://github.com/AgnesLily2772/RecipeBook",
+                deployedURL:"https://recipebook-frontend.netlify.app/",
+                category:"MERN",
+                description: "The Recipe Book Application is a web-based platform designed to help users organize, discover, and share their favorite recipes. This application provides a user-friendly interface for creating, editing, categorizing, and searching for recipes, along with features for user accounts, comments, and social sharing.",
+                hasDemoCredentials:true,
+                email:"agneslily2727@gmail.com",
+                password:"12345678"
+        },
     {
     projectName : "Escuela",
     github : "https://github.com/AgnesLily2772/Escuela",
@@ -72,6 +82,7 @@ const Projects = () => {
         description: "This website is all about getting data from API and displaying with the data. Also, this website contains advanced filters, search options and pagination. Everything was built dynamically using React JS.",
         hasDemoCredentials:false
       },
+      {},
       {
         projectName : "GyanDaan",
         github : "https://github.com/AgnesLily2772/Gyandaan",
