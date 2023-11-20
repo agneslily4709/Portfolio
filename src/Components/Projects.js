@@ -75,6 +75,14 @@ const Projects = () => {
         hasDemoCredentials:false
       },
       {
+        projectName : "Stroky Brush",
+        github : "https://github.com/AgnesLily2772/Stroky-Brush",
+        deployedURL:"https://tic-tac-toe-2772.netlify.app/",
+        category:"Frontend",
+        description: "It is a simple Tic Tac Toe game in React JS. The next player is displayed and the winner is announced. The whole logic is implemented using React Hooks and rendering concepts.",
+        hasDemoCredentials:false
+      },
+      {
         projectName : "Tic Tac Toe",
         github : "https://github.com/AgnesLily2772/tic-tac-toe",
         deployedURL:"https://tic-tac-toe-2772.netlify.app/",
