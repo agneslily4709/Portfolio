@@ -77,9 +77,9 @@ const Projects = () => {
       {
         projectName : "Stroky Brush",
         github : "https://github.com/AgnesLily2772/Stroky-Brush",
-        deployedURL:"https://tic-tac-toe-2772.netlify.app/",
+        deployedURL:"https://stroky-brush.netlify.app/",
         category:"Frontend",
-        description: "It is a simple Tic Tac Toe game in React JS. The next player is displayed and the winner is announced. The whole logic is implemented using React Hooks and rendering concepts.",
+        description: "Built in React to draw using a canva. Features like eraser, brush color, brush width, brush opacity are available. I have used useRef hook to update the canva area. Finally, the drawing can also be downloaded in a png format.",
         hasDemoCredentials:false
       },
       {
