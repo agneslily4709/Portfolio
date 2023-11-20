@@ -61,7 +61,7 @@ const Projects = () => {
       {
         projectName : "Admin Master",
         github : "https://github.com/AgnesLily2772/Admin-Master/",
-        deployedURL:"admin-master-app.netlify.app",
+        deployedURL:"https://admin-master-app.netlify.app",
         category:"Frontend",
         description: "Efficient React project managing students, teachers, and courses using React Context for seamless data handling and effective educational resource management.",
         hasDemoCredentials:false
