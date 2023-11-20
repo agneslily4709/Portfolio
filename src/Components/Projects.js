@@ -8,7 +8,7 @@ const Projects = () => {
                 github : "https://github.com/AgnesLily2772/RecipeBook",
                 deployedURL:"https://recipebook-frontend.netlify.app/",
                 category:"MERN",
-                description: "The Recipe Book Application is a web-based platform designed to help users organize, discover, and share their favorite recipes. This application provides a user-friendly interface for creating, editing, categorizing, and searching for recipes, along with features for user accounts, comments, and social sharing.",
+                description: "The Recipe Book is a web-based platform designed to help users organize, discover, and share their favorite recipes. Filter features and search functionality are enabled and this application provides a UI for creating, editing, categorizing, and searching for recipes.",
                 hasDemoCredentials:true,
                 email:"agneslily2727@gmail.com",
                 password:"12345678"
