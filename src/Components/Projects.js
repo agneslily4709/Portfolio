@@ -75,14 +75,21 @@ const Projects = () => {
         hasDemoCredentials:false
       },
       {
-        projectName : "React Search App",
-        github : "https://github.com/AgnesLily2772/ReactSearchApp",
-        deployedURL:"https://react-search-app-2772.netlify.app/",
+        projectName : "Tic Tac Toe",
+        github : "https://github.com/AgnesLily2772/tic-tac-toe",
+        deployedURL:"https://tic-tac-toe-2772.netlify.app/",
         category:"Frontend",
-        description: "This website is all about getting data from API and displaying with the data. Also, this website contains advanced filters, search options and pagination. Everything was built dynamically using React JS.",
+        description: "It is a simple Tic Tac Toe game in React JS. The next player is displayed and the winner is announced. The whole logic is implemented using React Hooks and rendering concepts.",
         hasDemoCredentials:false
       },
-      {},
+      {
+                projectName : "React Search App",
+                github : "https://github.com/AgnesLily2772/ReactSearchApp",
+                deployedURL:"https://react-search-app-2772.netlify.app/",
+                category:"Frontend",
+                description: "This website is all about getting data from API and displaying with the data. Also, this website contains advanced filters, search options and pagination. Everything was built dynamically using React JS.",
+                hasDemoCredentials:false   
+      },
       {
         projectName : "GyanDaan",
         github : "https://github.com/AgnesLily2772/Gyandaan",
